@@ -1,0 +1,58 @@
+{
+    "behaviorAttrs": {
+        "SetBlockControlAi": true,
+        "SetImmuneDamage": false,
+        "SetPersistence": true
+    },
+    "boxDataList": [],
+    "childParts": [
+        {
+            "bpType": "npc_namePart",
+            "changes": {
+                "v_PartVariable_1": "村民"
+            },
+            "classType": "PartInstance",
+            "customVariables": [
+                "v_PartVariable_1"
+            ],
+            "directoryPath": "npc_name",
+            "metaType": "npc_namePartMeta",
+            "partType": "npc_namePart"
+        }
+    ],
+    "childPresets": [],
+    "classType": "EntityPreset",
+    "engineTypeStr": "demo:entity",
+    "entityAttrs": {
+        "SetDamageValue": -1e-07,
+        "SetHealthValue": 20.0,
+        "SetLavaSpeedValue": 0.019999999552965164,
+        "SetSpeedValue": 0.5
+    },
+    "forceLoad": false,
+    "name": "npc",
+    "oxygenAttrs": {
+        "SetAirSeconds": 15,
+        "SetRecoverTotalAirSupplyTime": 0.0
+    },
+    "physicsAttrs": {
+        "SetGravity": 0.0,
+        "SetPushable": true
+    },
+    "preLoad": false,
+    "presetId": "efb88a5e-dd78-4c2b-b9ea-d4f4442ccad5",
+    "previewEnable": true,
+    "renderAttrs": {
+        "SetNotRender": false
+    },
+    "singleton": false,
+    "stateAndItemAttrs": {
+        "AddEffect": [],
+        "SetItemInfo": []
+    },
+    "templateId": "minecraft:npc",
+    "unique": false,
+    "updateRotationInterval": 0,
+    "updateScaleInterval": 0,
+    "updateTransformInterval": 2
+}

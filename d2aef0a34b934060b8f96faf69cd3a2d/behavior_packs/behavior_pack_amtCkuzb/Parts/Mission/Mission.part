@@ -1,0 +1,13 @@
+{
+    "bpType": "MissionPart",
+    "changes": {},
+    "classType": "PartInstance",
+    "customVariables": [
+        "v_fire",
+        "v_isbig",
+        "v_hurt"
+    ],
+    "directoryPath": "Mission",
+    "metaType": "MissionPartMeta",
+    "partType": "MissionPart"
+}

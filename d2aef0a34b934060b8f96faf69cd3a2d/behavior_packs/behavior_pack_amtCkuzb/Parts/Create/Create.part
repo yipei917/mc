@@ -1,0 +1,9 @@
+{
+    "bpType": "CreatePart",
+    "changes": {},
+    "classType": "PartInstance",
+    "customVariables": [],
+    "directoryPath": "Create",
+    "metaType": "CreatePartMeta",
+    "partType": "CreatePart"
+}

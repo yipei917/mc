@@ -1,0 +1,11 @@
+{
+    "bpType": "npc_namePart",
+    "changes": {},
+    "classType": "PartInstance",
+    "customVariables": [
+        "v_PartVariable_1"
+    ],
+    "directoryPath": "npc_name",
+    "metaType": "npc_namePartMeta",
+    "partType": "npc_namePart"
+}

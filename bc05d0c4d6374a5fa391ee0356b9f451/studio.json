@@ -1,0 +1,42 @@
+{
+  "Source": "空白附加包",
+  "CreateVersion": "2.2.0.88272",
+  "EditVersion": "2.2.0.88272",
+  "OldEditCount": 0,
+  "NewEditCount": 4,
+  "OldComponents": [],
+  "Account": "1351049203@qq.com",
+  "UserName": "有內味了",
+  "UserId": "84573",
+  "Id": "bc05d0c4d6374a5fa391ee0356b9f451",
+  "EditType": 2,
+  "IsMap": false,
+  "CreateNew": true,
+  "EditName": "自定义盔甲",
+  "GameType": 1,
+  "WorldType": 1,
+  "Seed": "",
+  "BlockNums": [
+    0,
+    0
+  ],
+  "BornPoint": [
+    0,
+    0,
+    0
+  ],
+  "SaveBackMapPath": null,
+  "SaveBackAddOnPath": "D:\\MCStudioDownload\\work\\1351049203@qq.com\\Cpp\\AddOn\\bc05d0c4d6374a5fa391ee0356b9f451",
+  "EditAddOnPaths": [],
+  "EditMaterialPaths": [],
+  "EditLogFilePath": "D:\\MCStudioDownload\\work\\editor\\edit.log",
+  "ServerName": "EXPR",
+  "StudioPort": 9821,
+  "DCWebUrl": "https://x19apigatewaytest.nie.netease.com",
+  "ShowGuide": false,
+  "AssertCacheDir": "D:\\MCStudioDownload\\EngineAssert",
+  "ElkUrl": "https://x19mclexpr.nie.netease.com/client-log",
+  "ShowGpuDriverTips": false,
+  "StudioTempPath": "D:\\MCStudioDownload\\temp\\editorTemp",
+  "EditorResourcePackPath": "D:\\Program Files (x86)\\Netease\\MCStudio\\data\\inner_res"
+}

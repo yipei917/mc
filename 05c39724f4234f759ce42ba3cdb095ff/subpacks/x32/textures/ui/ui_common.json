@@ -1,0 +1,168 @@
+//File modified by @CrizAtEX. Don´t steal the code design without permission ;)
+{
+  //---------------------------------------------------------------------------
+  // Modified assets for Common UI!
+  //---------------------------------------------------------------------------
+
+  /* Enable if you want to test with controller icons without using controller in hand!!
+  "gamepad_helper": {
+    "$gamepad_helper_visible_binding_name|default": "#visible" //#gamepad_helper_visible
+  },
+
+  "gamepad_icon_button@common.gamepad_helper_icon_image": {
+    "bindings": [
+      {
+        "binding_name": "$icon_texture",
+        "binding_name_override": "#texture"
+      },
+      {
+        "binding_name": "#visible", //#gamepad_helper_visible
+        "binding_name_override": "#visible"
+      }
+    ]
+  },
+
+  "gamepad_cursor_image": {
+    "type": "image",
+    "texture": "textures/ui/pointer",
+    "size": [ 14, 14 ],
+    "layer": 60,
+    "follows_cursor": true,
+
+    "bindings": [
+      {
+        "binding_name": "#visible", //#gamepad_cursor_visible
+        "binding_name_override": "#visible",
+        "binding_condition": "always"
+      }
+    ]
+  },
+
+  "gamepad_cursor_button": {
+    "type": "button",
+    "visible":  true,
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "locked_control": "",
+    "default_control": "default",
+    "hover_control": "hover",
+    "pressed_control": "pressed",
+    "layer": -10, //-10
+    "size": [ 16, 16 ],
+    "follows_cursor": true,
+    "always_handle_pointer": true,
+    "controls": [
+      { "default@gamepad_cursor_image": {} },
+      { "pressed@gamepad_cursor_image": {} },
+      { "hover@gamepad_cursor_image": {} }
+    ]
+  },*/
+
+  "text_edit_box": {
+    "$text_background_locked": "$text_background_default", //Added/Modified
+    "controls": [
+      {
+        "clipper_panel": {
+          "type": "panel",
+          "size": [ "100% - 6px", "100% - 4px" ],
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "offset": "$text_offset",
+          "clips_children": true,
+          "$disabled_color|default": "$color",
+          "controls": [
+            {
+              "$text_edit_text_control@common.text_edit_box_label": {
+                "layer": 1,
+                "size": "$text_edit_box_label_size",
+                "offset": "$text_edit_box_label_offset",
+                "min_size": "$text_edit_box_label_min_size",
+                "anchor_from": "$text_edit_box_label_anchor_point",
+                "anchor_to": "$text_edit_box_label_anchor_point",
+                "font_size": "$font_size",
+                "$text_alpha|default": "$alpha",
+                "$locked_text_alpha|default": "$disabled_alpha",
+                "$locked_color|default": "$disabled_color"
+              }
+            },
+            {
+              "visibility_panel": {
+                "type": "panel",
+                "controls": [
+                  {
+                    "place_holder_control@$place_holder_control": {
+                      "layer": 1,
+                      "size": "$text_edit_box_label_size",
+                      "offset": "$text_edit_box_label_offset",
+                      "min_size": "$text_edit_box_label_min_size",
+                      "anchor_from": "$text_edit_box_label_anchor_point",
+                      "anchor_to": "$text_edit_box_label_anchor_point",
+                      "$text_alpha|default": "$alpha",
+                      "$locked_text_alpha|default": "$disabled_alpha",
+                      "$locked_color|default": "$disabled_color"
+                    }
+                  }
+                ],
+
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "$text_edit_text_control",
+                    "source_property_name": "(#item_name = '')",
+                    "target_property_name": "#visible",
+                    "resolve_sibling_scope": true
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "locked": {
+          "type": "panel",
+          "$disabled_color|default": "$color",
+          "controls": [
+            {
+              "edit_box_indent@$text_background_locked": { //Modified
+                "$color": "$disabled_color",
+                "$alpha": "$disabled_alpha"
+              }
+            }
+          ]
+        }
+      },
+      { "default@$text_background_default": {} },
+      { "hover@$text_background_hover": {} },
+      { "pressed@$text_background_hover": {} }
+    ]
+  },
+
+  "selected_item_details": {
+    "controls": [
+      {
+        "item_panel_image": {
+          "type": "image",
+          "size": [ "100%c + 8px", "100%c + 8px" ],
+          "layer": 30,
+
+          "alpha": "@common.anim_item_details_alpha",
+          "texture": "textures/ui/purpleBorder",
+
+          "controls": [
+            {
+              "item_text_label": {
+                "type": "label",
+                "shadow": true,
+                "layer": 1,
+                "alpha": "@common.anim_item_details_alpha",
+                "text": "#selected_hover_text",
+                "color": "$item_hover_text_color"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Esta Es Una Nueva Versión, porteador:§2 Elcuagames 121 §f créditos A :§2 @Zenthic @arturog3504 @TimeJustHappens.",
+        "name": "§6Soartex Fanver 1.18 §f(Not official) by §4 Elcuagames 121",
+        "uuid": "5838f00d-be07-400e-a6c5-a8c119551b17",
+        "version": [8, 0, 1],
+        "min_engine_version": [ 1, 16, 0 ]
+    },
+    "modules": [
+        {
+            "description": "Esta Es Una Nueva Versión, porteador:§2 Elcuagames 121§f créditos A :§2 @Zenthic @arturog3504 @TimeJustHappens.",
+            "type": "resources",
+            "uuid": "375489ef-6c09-4c6e-adf4-13a0a1632d10",
+            "version": [8, 0, 1]
+        }
+    ],
+	"subpacks": [
+   {
+      "folder_name": "x32",
+      "name": "Soartex Fanver 32x32 [Restart game]",
+      "memory_tier": 1
+      },
+   {
+      "folder_name": "x64",
+      "name": "Soartex Fanver 64x64 [Restart game]",
+      "memory_tier": 1
+      }
+   ]
+}

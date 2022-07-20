@@ -1,0 +1,42 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:client_entity": {
+        "description": {
+            "animation_controllers": [
+                {
+                    "move": "controller.animation.titan.move"
+                },
+                {
+                    "attack": "controller.animation.titan.attack"
+                }
+            ],
+            "animations": {
+                "attack": "animation.titan.attack",
+                "look_at_target": "animation.titan.look_at_target",
+                "move": "animation.titan.move"
+            },
+            "geometry": {
+                "default": "geometry.titan1"
+            },
+            "identifier": "demo:titan1",
+            "materials": {
+                "default": "husk"
+            },
+            "render_controllers": [
+                "controller.render.husk"
+            ],
+            "scripts": {
+                "pre_animation": [
+                    "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+                ]
+            },
+            "spawn_egg": {
+                "texture": "spawn_egg",
+                "texture_index": 28
+            },
+            "textures": {
+                "default": "textures/entity/titan1"
+            }
+        }
+    }
+}

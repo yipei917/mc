@@ -1,0 +1,77 @@
+{
+    "behaviorAttrs": {
+        "EnableKeepInventory": false,
+        "SetPickUpArea": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "boxDataList": [],
+    "childParts": [
+        {
+            "bpType": "FlyPart",
+            "changes": {
+                "name": "飞行"
+            },
+            "classType": "PartInstance",
+            "customVariables": [],
+            "directoryPath": "Fly",
+            "metaType": "FlyPartMeta",
+            "partType": "FlyPart"
+        },
+        {
+            "bpType": "MissionPart",
+            "changes": {
+                "name": "任务"
+            },
+            "classType": "PartInstance",
+            "customVariables": [],
+            "directoryPath": "Mission",
+            "metaType": "MissionPartMeta",
+            "partType": "MissionPart"
+        },
+        {
+            "bpType": "CreatePart",
+            "changes": {
+                "name": "生成"
+            },
+            "classType": "PartInstance",
+            "customVariables": [],
+            "directoryPath": "Create",
+            "metaType": "CreatePartMeta",
+            "partType": "CreatePart"
+        }
+    ],
+    "childPresets": [],
+    "classType": "PlayerPreset",
+    "expLevelAttrs": {
+        "AddLevel": 0
+    },
+    "forceLoad": false,
+    "hungerAndHealthAttrs": {
+        "SetHealthLevel": 18,
+        "SetHealthTick": 80,
+        "SetHunger": 20,
+        "SetMaxExhaustionValue": 4.0,
+        "SetNaturalRegen": true,
+        "SetNaturalStarve": true,
+        "SetStarveLevel": 1,
+        "SetStarveTick": 80
+    },
+    "name": "Player",
+    "preLoad": false,
+    "presetId": "aa86b303-9127-4966-9552-0c8cd027c88f",
+    "previewEnable": true,
+    "renderAttrs": {
+        "SetSkin": ""
+    },
+    "singleton": false,
+    "sportAttrs": {
+        "ChangeFlyState": false,
+        "SetJumpable": true,
+        "SetMovable": true,
+        "SetStepHeight": 0.5625
+    },
+    "unique": true
+}

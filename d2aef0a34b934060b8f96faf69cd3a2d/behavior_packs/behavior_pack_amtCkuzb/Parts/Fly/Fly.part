@@ -1,0 +1,11 @@
+{
+    "bpType": "FlyPart",
+    "changes": {},
+    "classType": "PartInstance",
+    "customVariables": [
+        "v_fly_to"
+    ],
+    "directoryPath": "Fly",
+    "metaType": "FlyPartMeta",
+    "partType": "FlyPart"
+}

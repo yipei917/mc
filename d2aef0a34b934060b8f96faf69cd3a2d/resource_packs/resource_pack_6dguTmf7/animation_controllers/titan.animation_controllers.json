@@ -1,0 +1,49 @@
+{
+  "format_version" : "1.10.0",
+  "animation_controllers" : {
+    "controller.animation.titan.move" : {
+      "initial_state" : "default",
+      "states" : {
+        "default" : {
+          "variables": {
+            "move_speed": {
+              "input": "query.modified_move_speed",
+              "remap_curve": {
+                "0.01": 0.0,
+                "0.1": 1.0
+              }
+            }
+          },
+          "animations" : [
+            {
+              "move" : "!query.is_on_ground || variable.move_speed"
+            },
+            "look_at_target"
+          ]
+        }
+      }
+    },
+    "controller.animation.titan.attack" : {
+      "initial_state": "default",
+      "states": {
+        "attacking": {
+          "animations": [
+            "attack"
+          ],
+          "transitions": [
+            {
+              "default": "query.is_delayed_attacking == 0"
+            }
+          ]
+        },
+        "default": {
+          "transitions": [
+            {
+              "attacking": "query.is_delayed_attacking == 1"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

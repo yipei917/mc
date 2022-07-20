@@ -1,0 +1,17 @@
+{
+    "Arena.Component.Namespace": "demo",
+    "FirstTabSetting": 1,
+    "ShortItemSettings": [
+        "resource_packs\\resource_pack_6dguTmf7\\ui",
+        "behavior_packs\\behavior_pack_amtCkuzb\\Presets",
+        "behavior_packs\\behavior_pack_amtCkuzb\\Parts",
+        "behavior_packs\\behavior_pack_amtCkuzb\\BoxData",
+        "resource_packs\\resource_pack_6dguTmf7\\effects",
+        "resource_packs\\resource_pack_6dguTmf7\\models",
+        "resource_packs\\resource_pack_6dguTmf7\\textures"
+    ],
+    "Uluru.autoLayerDict": {
+
+    },
+    "Uluru.checkSuspectOldUI": true
+}

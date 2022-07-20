@@ -1,0 +1,55 @@
+{
+    "Addon": {
+        "PresetInstanceTreeData": [
+            {
+                "idx": 1,
+                "npc": [
+                    {
+                        "idx": 0,
+                        "零件（文件夹）": [
+
+                        ]
+                    }
+                ]
+            },
+            {
+                "idx": 2,
+                "npc": [
+                    {
+                        "idx": 0,
+                        "零件（文件夹）": [
+
+                        ]
+                    }
+                ]
+            },
+            {
+                "idx": 3,
+                "npc": [
+                    {
+                        "idx": 0,
+                        "零件（文件夹）": [
+
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "UI": {
+        "expandData": {
+            "prefab": {
+
+            },
+            "screen": {
+                "C:\\Users\\20934\\Desktop\\ver\\d2aef0a34b934060b8f96faf69cd3a2d\\resource_packs\\resource_pack_6dguTmf7\\ui\\UIMiniMap.json": [
+                    "/main",
+                    "/main/mainPanel"
+                ]
+            }
+        },
+        "prefabGroupExpand": [
+
+        ]
+    }
+}

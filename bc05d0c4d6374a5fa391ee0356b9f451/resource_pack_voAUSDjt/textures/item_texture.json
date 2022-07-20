@@ -1,0 +1,12 @@
+{
+    "resource_pack_name": "vanilla",
+    "texture_data": {
+        "demo:armor": {
+            "textures": "textures/items/demo_armour"
+        },
+        "demo:fire": {
+            "textures": "textures/items/fire"
+        }
+    },
+    "texture_name": "atlas.items"
+}

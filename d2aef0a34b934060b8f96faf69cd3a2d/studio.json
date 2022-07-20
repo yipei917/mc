@@ -1,0 +1,42 @@
+{
+  "Source": "空白地图",
+  "CreateVersion": "2.2.0.88272",
+  "EditVersion": "2.2.0.88272",
+  "OldEditCount": 0,
+  "NewEditCount": 8,
+  "OldComponents": [],
+  "Account": "ver443378772@163.com",
+  "UserName": "ver",
+  "UserId": "84644",
+  "Id": "d2aef0a34b934060b8f96faf69cd3a2d",
+  "EditType": 1,
+  "IsMap": true,
+  "CreateNew": false,
+  "EditName": "空白地图",
+  "GameType": 1,
+  "WorldType": 1,
+  "Seed": "5937172",
+  "BlockNums": [
+    0,
+    0
+  ],
+  "BornPoint": [
+    0,
+    0,
+    0
+  ],
+  "SaveBackMapPath": "D:\\MCStudioDownload\\work\\ver443378772@163.com\\Cpp\\Map\\d2aef0a34b934060b8f96faf69cd3a2d",
+  "SaveBackAddOnPath": "",
+  "EditAddOnPaths": [],
+  "EditMaterialPaths": [],
+  "EditLogFilePath": "D:\\MCStudioDownload\\work\\editor\\edit.log",
+  "ServerName": "EXPR",
+  "StudioPort": 12973,
+  "DCWebUrl": "https://x19apigatewaytest.nie.netease.com",
+  "ShowGuide": false,
+  "AssertCacheDir": "D:\\MCStudioDownload\\EngineAssert",
+  "ElkUrl": "https://x19mclexpr.nie.netease.com/client-log",
+  "ShowGpuDriverTips": false,
+  "StudioTempPath": "D:\\MCStudioDownload\\temp\\editorTemp",
+  "EditorResourcePackPath": "D:\\MCStudio\\data\\inner_res"
+}

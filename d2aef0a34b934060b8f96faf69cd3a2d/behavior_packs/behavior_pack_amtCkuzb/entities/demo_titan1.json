@@ -1,0 +1,171 @@
+{
+    "format_version": "1.12.0",
+    "minecraft:entity": {
+        "components": {
+            "minecraft:attack": {
+                "damage": 3
+            },
+            "minecraft:behavior.delayed_attack": {
+                "attack_duration": 1.0,
+                "hit_delay_pct": 0.3,
+                "priority": 2,
+                "reach_multiplier": 2.0,
+                "sound_event": "attack.strong",
+                "track_target": true
+            },
+            "minecraft:behavior.hurt_by_target": {
+                "priority": 1
+            },
+            "minecraft:behavior.look_at_player": {
+                "look_distance": 15.0,
+                "priority": 3,
+                "probability": 1.0
+            },
+            "minecraft:behavior.nearest_attackable_target": {
+                "entity_types": [
+                    {
+                        "filters": {
+                            "any_of": [
+                                {
+                                    "subject": "other",
+                                    "test": "is_family",
+                                    "value": "player"
+                                },
+                                {
+                                    "subject": "other",
+                                    "test": "is_family",
+                                    "value": "snowgolem"
+                                },
+                                {
+                                    "subject": "other",
+                                    "test": "is_family",
+                                    "value": "irongolem"
+                                }
+                            ]
+                        },
+                        "max_dist": 35
+                    },
+                    {
+                        "filters": {
+                            "any_of": [
+                                {
+                                    "subject": "other",
+                                    "test": "is_family",
+                                    "value": "villager"
+                                },
+                                {
+                                    "subject": "other",
+                                    "test": "is_family",
+                                    "value": "wandering_trader"
+                                }
+                            ]
+                        },
+                        "max_dist": 35,
+                        "must_see": false
+                    },
+                    {
+                        "filters": {
+                            "all_of": [
+                                {
+                                    "subject": "other",
+                                    "test": "is_family",
+                                    "value": "baby_turtle"
+                                },
+                                {
+                                    "operator": "!=",
+                                    "subject": "other",
+                                    "test": "in_water",
+                                    "value": true
+                                }
+                            ]
+                        },
+                        "max_dist": 35
+                    }
+                ],
+                "must_see": false,
+                "priority": 2,
+                "reselect_targets": true,
+                "within_radius": 25
+            },
+            "minecraft:behavior.random_look_around": {
+                "priority": 9
+            },
+            "minecraft:behavior.random_stroll": {
+                "interval": 60,
+                "priority": 6,
+                "speed_multiplier": 1.0
+            },
+            "minecraft:breathable": {
+                "breathes_water": true,
+                "suffocate_time": 0,
+                "total_supply": 15
+            },
+            "minecraft:collision_box": {
+                "height": 1.9,
+                "width": 0.8
+            },
+            "minecraft:experience_reward": {
+                "on_death": "query.last_hit_by_player?Math.Random(0,1):0"
+            },
+            "minecraft:health": {
+                "max": 20,
+                "value": 50
+            },
+            "minecraft:hurt_on_condition": {
+                "damage_conditions": [
+                    {
+                        "cause": "lava",
+                        "damage_per_tick": 4,
+                        "filters": {
+                            "operator": "==",
+                            "subject": "self",
+                            "test": "in_lava",
+                            "value": true
+                        }
+                    }
+                ]
+            },
+            "minecraft:jump.static": {
+                "jump_power": 0.5
+            },
+            "minecraft:movement": {
+                "value": 0.25
+            },
+            "minecraft:movement.basic": {
+
+            },
+            "minecraft:navigation.walk": {
+                "avoid_portals": false,
+                "avoid_water": true,
+                "can_break_doors": true,
+                "can_pass_doors": true,
+                "is_amphibious": true
+            },
+            "minecraft:physics": {
+                "has_collision": true,
+                "has_gravity": true
+            },
+            "minecraft:push_through": {
+                "value": 0.01
+            },
+            "minecraft:pushable": {
+                "is_pushable": true
+            },
+            "minecraft:scale": {
+                "value": 6.0
+            },
+            "minecraft:type_family": {
+                "family": [
+                    "monster",
+                    "mob"
+                ]
+            }
+        },
+        "description": {
+            "identifier": "demo:titan1",
+            "is_experimental": false,
+            "is_spawnable": true,
+            "is_summonable": true
+        }
+    }
+}

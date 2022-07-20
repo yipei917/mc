@@ -1,0 +1,16 @@
+{
+    "Arena.Component.Namespace": "demo",
+    "FirstTabSetting": 0,
+    "ShortItemSettings": [
+        "resource_pack_voAUSDjt\\ui",
+        "behavior_pack_hjXfsfdx\\Presets",
+        "behavior_pack_hjXfsfdx\\Parts",
+        "behavior_pack_hjXfsfdx\\BoxData",
+        "resource_pack_voAUSDjt\\effects",
+        "resource_pack_voAUSDjt\\models",
+        "resource_pack_voAUSDjt\\textures"
+    ],
+    "Uluru.autoLayerDict": {
+
+    }
+}

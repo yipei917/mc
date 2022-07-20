@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "components": {
+            "minecraft:icon": "demo:fire"
+        },
+        "description": {
+            "category": "Equipment",
+            "identifier": "demo:fire",
+            "register_to_create_menu": true
+        }
+    }
+}

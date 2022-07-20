@@ -1,0 +1,65 @@
+{
+    "particleeffect": {
+        "activetime": {
+            "value": "0.5"
+        },
+        "constantforce": {
+            "value": "0.0 -1.0 0.0"
+        },
+        "direction": {
+            "max": "1.0 1.0 1.0",
+            "min": "-1.0 -1.0 -1.0",
+            "value": "Outwards"
+        },
+        "disorder": {
+            "increment": "0.0",
+            "interval": "0.1",
+            "max": "0.0 1.0 0.0",
+            "min": "0.0 0.0 0.0"
+        },
+        "emissionrate": {
+            "max": "100.0",
+            "min": "100.0"
+        },
+        "emitterScaleCurve": [
+
+        ],
+        "emitterscale": [
+
+        ],
+        "emittersize": {
+            "value": "2.0 2.0 2.0"
+        },
+        "emittertype": {
+            "value": "Sphere"
+        },
+        "enablecolor": {
+            "enable": "false"
+        },
+        "numparticles": {
+            "value": "50"
+        },
+        "particlesize": {
+            "max": "0.5 0.5",
+            "min": "0.5 0.5"
+        },
+        "relative": {
+            "enable": "true"
+        },
+        "texture": {
+            "ani": {
+                "fps": "8",
+                "name": "textures/sfxs/ty_chuanzhi_shouji_huoxishanghai_seh/ty_chuanzhi_shouji_huoxishanghai_seh_huoyan",
+                "shuffle": false
+            },
+            "name": "textures/sfxs/ty_chuanzhi_shouji_huoxishanghai_seh/ty_chuanzhi_shouji_huoxishanghai_seh_huoyan"
+        },
+        "thickness": {
+            "value": "0.0"
+        },
+        "velocity": {
+            "max": "0.5",
+            "min": "0.0"
+        }
+    }
+}
